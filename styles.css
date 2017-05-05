@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+p{
+	width:100px;	
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: grey;
+  -webkit-transition: height 0.5s ease-in-out;
+  -moz-transition: height 0.5s ease-in-out;
+  -ms-transition: height 0.5s ease-in-out;
+  -o-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out; }
+
+header img{
+	margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+  header nav{
+  	padding: 1em;
+  	text-align: center;
+  }
+
+  header nav a{
+  	color: white;
+  	margin: 0;
+  	padding:0 2em;
+  	text-decoration: none;
+  	text-align: center;
+  	}
+
+  .block-1{
+
+  	background-image: url(images/buzz.png);
+
+ 	padding-top: 16em;
+  
+  	text-align: center;
+  }
+
+  .block-2 {
+  	background-image: url(images/buzz.png);
+  }
