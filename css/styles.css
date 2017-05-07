@@ -137,29 +137,39 @@ header img{
   	
   }
 
+  .block-2-outer{
+    background-image: url(images/circuitgrad.jpg);
+    
+    background-position: center;
+  }
+
  @media screen and (min-width: 1050px) {
   	.block-2 {
   		display: flex;
   		border: 5px solid #9F9F9F;
   	}	
-  	.block-2-outer{
 
-  	background-image: url(images/blue-circuit.jpg);
-  	padding:.7em 3em 3em 3em ;
-	}
+    .block-2-outer{
+      padding:.7em 3em 3em 3em ;
+    }
+  	
   }
+
+
 
   .block-2-outer h1 {
   	font-size: 20px;
-  	padding-left: .7em;
+  	padding-left: 5px;
+    margin: 0;
   }
 
   .block-2 h1 {
-  	color: #C7C6C6;
+  	color: #304D96;
+
   }
 
   .block-2 li{
-  	color: #C7C6C6;
+  	color: #304D96;
   }
 
   	.block-2-child {
@@ -333,7 +343,7 @@ input, select, textarea{
 }
 
 table{
-	color: #C7C6C6;
+	color: #304D96;
 	border-spacing: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
