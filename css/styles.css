@@ -315,7 +315,13 @@ header img{
 	}
 }
 
+footer {
+  background-image: url(images/blue-circuit.jpg);
+}
+
 footer p {
+  margin: 0;
+  padding: 1em 0;
 	text-align: center;
 	font-size: 13px;
 	color: #C7C6C6; 
